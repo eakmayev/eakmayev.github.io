@@ -1,46 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-    
-
-	<title></title>
-</head>
+<link rel="stylesheet" type="text/css" href="bulma.css">
+<link rel="stylesheet" type="text/css" href="main.css">
 <body>
+<nav class="nav">
+  <div class="nav-left">
+    <a class="nav-item">
+      <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+    </a>
+  </div>
 
-	<header>
-		<div class="contentWrapper">
-		<!--Login menu-->
-			<nav id="utilityMenu">
-	
-				<ul>
-					<li><a href="#"><img src=""></a></li>
-					<li><a href="#"><img src=""></a></li>
-					<li><a href="#"><img src=""></a></li>
-					<li><a href="#"><img src=""></a></li>
-					<li><input type="search" id="search" placeholder="Search"></li>
-				</ul>
-			</nav>
+  <div class="nav-center">
+    <a class="nav-item">
+      <span class="icon">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+    
+  </div>
 
-	<!--Navigation Menu-->
 
-		</div>
-	</header>
-	<section class="sidebar">
-	<!--Sidebar text-->
-		<h1>Aerial silks for sale</h1>
-		<p>Our website provides an acess to  circus gear, mainly aerial silks equipment.</p>
-		<ul>
-			<h1>Aerial Gear<h1>
-			<li><a href="#">Aerial Silks</a></li>
-			<li><a href="#">Aerial Rings</a></li>
-			<li><a href="#">Trapeze Bars</a></li>
-			<li><a href="#">Aerial Straps</a></li>
-		</ul>
-<!--Gear options -->
-	</section>
+  <!-- This "nav-menu" is hidden on mobile -->
+  <!-- Add the modifier "is-active" to display it on mobile -->
+  <div class="nav-right nav-menu">
+    <a class="nav-item">
+      Silks
+    </a>
+    <a class="nav-item">
+      Rings
+    </a>
+    <a class="nav-item">
+      Bars
+    </a>
 
-	<section>
+    <div class="nav-item">
+      <div class="field is-grouped">
+        <p class="control">
+          <input type="text" name="" placeholder="Enter Search">
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</nav
+<div class="columns">
+<div class="columns-3">
+<aside class="menu">
+  <p class="menu-label">
+    General
+  </p>
+  <ul class="menu-list">
+    <li><a>Dashboard</a></li>
+    <li><a>Customers</a></li>
+  </ul>
+  <p class="menu-label">
+    Administration
+  </p>
+  <ul class="menu-list">
+    <li><a>Team Settings</a></li>
+    <li>
+      <a class="is-active">Manage Your Team</a>
+      <ul>
+        <li><a>Members</a></li>
+        <li><a>Plugins</a></li>
+        <li><a>Add a member</a></li>
+      </ul>
+    </li>
+    <li><a>Invitations</a></li>
+    <li><a>Cloud Storage Environment Settings</a></li>
+    <li><a>Authentication</a></li>
+  </ul>
+  <p class="menu-label">
+    Transactions
+  </p>
+  <ul class="menu-list">
+    <li><a>Payments</a></li>
+    <li><a>Transfers</a></li>
+    <li><a>Balance</a></li>
+  </ul>
+</aside>
+</div>
+<div class="columns">
+<section>
 		<div class="panel">
 			<h1>Shop for Aerial Silks</h1>
 			<img class="back" src="img/silks.png.jpg">  
@@ -75,19 +114,9 @@
 			<button>Order</button>
 		</div>
 	</section>
-	<!--Four different gears-->
-	<!--Main Section-->
-	
-
-	<footer>
-		<span>&copy;2017 </span>
-        <ul id="menuFooter">
-          <li><a href="#">Sitemap</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li>Website by Emiliya</li>
-        </ul>
-	</footer>
+</div>
+</div>
 </body>
-</html>
-	
+</body>
+<script>
+</script>
