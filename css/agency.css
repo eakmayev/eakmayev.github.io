@@ -303,6 +303,7 @@ section h3.section-subheading {
   text-transform: none;
 }
 #portfolio .portfolio-item {
+  height: 400px;
   margin: 0 0 15px;
   right: 0;
 }
