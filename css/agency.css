@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: black;
 }
 h1,
 h2,
@@ -302,11 +302,13 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
 #portfolio .portfolio-item {
   height: 400px;
   margin: 0 0 15px;
   right: 0;
 }
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
